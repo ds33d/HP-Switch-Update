@@ -60,7 +60,7 @@ for key,val in results.items():
                 print("Connecting to switch...")
                 switch_connection = ConnectHandler(**switch)
 
-                #find switch prompt KD-SW
+                #find switch prompt
                 print("Finding switch prompt...")
                 output = switch_connection.find_prompt()
                 print(output)
